@@ -11,7 +11,7 @@
 #echo $CI_BUILD_ID
 #echo $CI_BUILD_URL
 cd /Volumes/workspace/ci
-cd ./*(/om[1])
+cd "$(\ls -1dt ./*/ | head -n 1)"
 pwd
 #ls .
 #cd "$( find "$1"/* -prune -type d 2>/dev/null | xargs stat -c "%Y %n" 2>/dev/null | sort -nr | head -n 1 | cut -d " " -f 2-)"
