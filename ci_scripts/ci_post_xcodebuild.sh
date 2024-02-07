@@ -5,7 +5,7 @@
 #
 #  Created by Dustin Likens on 2/6/24.
 #
-cat /Volumes/workspace/ci/67d3ccb2-c58a-11ee-94e9-0a470bacbdff/o.out
+cat /Volumes/workspace/ci/*/o.out
 
 #find / -name '*.log'
 #grep -r "ARCHIVE SUCCEEDED" /Volumes
