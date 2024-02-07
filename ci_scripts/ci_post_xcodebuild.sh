@@ -10,6 +10,7 @@
 #cat /Volumes/workspace/ci/*/o.out
 echo $CI_BUILD_ID
 echo $CI_PRODUCT_ID
+echo $CI_BUILD_URL
 ls -ra /Volumes/workspace/ci/
 #echo $CI_PROJECT_FILE_PATH
 #mkdir /Volumes/workspace/veracode
