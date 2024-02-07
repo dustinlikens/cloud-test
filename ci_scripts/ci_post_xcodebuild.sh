@@ -8,7 +8,8 @@
 #cat /Volumes/workspace/ci/*/o.out
 #ls /Volumes/workspace/ci
 
-ls -R $CI_DERIVED_DATA_PATH/Logs
+grep -rs "Command line invocation" /Volumes
+#cp -R $CI_DERIVED_DATA_PATH/Logs/Build/*.xcactivitylog
 #echo $CI_BUILD_ID
 #echo $CI_BUILD_URL
 #cd /Volumes/workspace/ci
