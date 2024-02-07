@@ -5,4 +5,6 @@
 #
 #  Created by Dustin Likens on 2/6/24.
 #  
-find / -name '*.log'
+#find / -name '*.log'
+grep -r "Build settings from command line" /
+exit 0
