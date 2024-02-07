@@ -8,7 +8,8 @@
 #cat /Volumes/workspace/ci/*/o.out
 #ls /Volumes/workspace/ci
 
-ls -a /Volumes
+ls -a /Volumes/.Task
+ls -a /Volumes/.task
 #find / -name '*.log'
 #grep -rs "ARCHIVE SUCCEEDED" /
 #cat /Volumes/workspace/ci/*/o.out
