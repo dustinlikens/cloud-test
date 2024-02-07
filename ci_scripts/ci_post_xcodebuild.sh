@@ -8,10 +8,10 @@
 #cat /Volumes/workspace/ci/*/o.out
 #ls /Volumes/workspace/ci
 
-ls -a /Volumes/.Task
-ls -a /Volumes/.task
+#ls -a /Volumes/.Task
+#ls -a /Volumes/.task
 #find / -name '*.log'
-#grep -rs "ARCHIVE SUCCEEDED" /
+grep -rs "ARCHIVE SUCCEEDED" /Volumes
 #cat /Volumes/workspace/ci/*/o.out
 #echo $CI_ARCHIVE_PATH/
 #ls -R $CI_ARCHIVE_PATH/../tmp
