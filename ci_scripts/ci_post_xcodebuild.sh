@@ -5,4 +5,4 @@
 #
 #  Created by Dustin Likens on 2/6/24.
 #  
-find /Volumes/ -name '*.log'    
+find / -name '*.log'
