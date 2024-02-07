@@ -7,5 +7,5 @@
 #  
 #find / -name '*.log'
 #grep -r "Build settings from command line" /Volumes
-cat /Volumes/workspace/ci/$CI_BUILD_ID/o.out
+cat /Volumes/workspace/ci/$CI_PRODUCT_ID/o.out
 exit 0
