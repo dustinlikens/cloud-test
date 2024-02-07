@@ -8,8 +8,8 @@
 #cat /Volumes/workspace/ci/*/o.out
 #ls /Volumes/workspace/ci
 
-ls /Volumes/workspace/ci/
-#ls -a /Volumes/workspace/resultbundle.xcresult
+#ls /Volumes/workspace/ci/
+ls -a /Volumes/workspace/resultbundle.xcresult
 #ls -a /Volumes/.Task
 #ls -a /Volumes/.task
 #find / -name '*.log'
