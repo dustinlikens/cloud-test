@@ -16,7 +16,7 @@
 		EF5B42312B732FF30043C630 /* cloud_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5B42302B732FF30043C630 /* cloud_testTests.swift */; };
 		EF5B423B2B732FF30043C630 /* cloud_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5B423A2B732FF30043C630 /* cloud_testUITests.swift */; };
 		EF5B423D2B732FF30043C630 /* cloud_testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5B423C2B732FF30043C630 /* cloud_testUITestsLaunchTests.swift */; };
-		EF5EBE052B7339FE009766CC /* ci_post_xcodebuilt.sh in Resources */ = {isa = PBXBuildFile; fileRef = EF5EBE042B7339FE009766CC /* ci_post_xcodebuilt.sh */; };
+		EF5EBE052B7339FE009766CC /* ci_post_xcodebuild.sh in Resources */ = {isa = PBXBuildFile; fileRef = EF5EBE042B7339FE009766CC /* ci_post_xcodebuild.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		EF5B42362B732FF30043C630 /* cloud-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cloud-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5B423A2B732FF30043C630 /* cloud_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloud_testUITests.swift; sourceTree = "<group>"; };
 		EF5B423C2B732FF30043C630 /* cloud_testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloud_testUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		EF5EBE042B7339FE009766CC /* ci_post_xcodebuilt.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_xcodebuilt.sh; sourceTree = "<group>"; };
+		EF5EBE042B7339FE009766CC /* ci_post_xcodebuild.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_xcodebuild.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +133,7 @@
 		EF5EBE032B7339D7009766CC /* ci_scripts */ = {
 			isa = PBXGroup;
 			children = (
-				EF5EBE042B7339FE009766CC /* ci_post_xcodebuilt.sh */,
+				EF5EBE042B7339FE009766CC /* ci_post_xcodebuild.sh */,
 			);
 			path = ci_scripts;
 			sourceTree = "<group>";
@@ -243,7 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF5B42262B732FF30043C630 /* LaunchScreen.storyboard in Resources */,
-				EF5EBE052B7339FE009766CC /* ci_post_xcodebuilt.sh in Resources */,
+				EF5EBE052B7339FE009766CC /* ci_post_xcodebuild.sh in Resources */,
 				EF5B42232B732FF30043C630 /* Assets.xcassets in Resources */,
 				EF5B42212B732FF20043C630 /* Main.storyboard in Resources */,
 			);
