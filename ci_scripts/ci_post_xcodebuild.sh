@@ -27,5 +27,5 @@
 #  ENABLE_BITCODE=NO \
 #  > build.log.txt
 #cat build.log.txt
-find /Volumes -type f -name "*.log"
+find / -type f -name "*.log"
 exit 0
