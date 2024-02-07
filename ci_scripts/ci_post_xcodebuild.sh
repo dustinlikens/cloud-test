@@ -6,5 +6,6 @@
 #  Created by Dustin Likens on 2/6/24.
 #  
 #find / -name '*.log'
-grep -r "Build settings from command line" /Volumes
+#grep -r "Build settings from command line" /Volumes
+cat /Volumes/workspace/ci/$CI_BUILD_ID/o.out
 exit 0
