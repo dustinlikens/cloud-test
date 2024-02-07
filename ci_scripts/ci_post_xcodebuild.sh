@@ -6,7 +6,7 @@
 #  Created by Dustin Likens on 2/6/24.
 #  
 #find / -name '*.log'
-#grep -r "Build settings from command line" /Volumes
+grep -r "** ARCHIVE SUCCEEDED **" /Volumes
 #cat /Volumes/workspace/ci/*/o.out
 #echo $CI_ARCHIVE_PATH/
 #ls -R $CI_ARCHIVE_PATH/../tmp
@@ -27,7 +27,7 @@
 #  ENABLE_BITCODE=NO \
 #  > build.log.txt
 #cat build.log.txt
-find /Users -type f -name "*.log"
+#find /Users -type f -name "*.log"
 #cat "/Volumes/workspace/tmp/resultBundleStream"*".json"
 #ls -R /Volumes/workspace/resultbundle.xcresult
 exit 0
