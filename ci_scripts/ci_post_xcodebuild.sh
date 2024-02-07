@@ -9,7 +9,7 @@
 #grep -r "Build settings from command line" /Volumes
 #cat /Volumes/workspace/ci/*/o.out
 #echo $CI_ARCHIVE_PATH/
-ls -R $CI_ARCHIVE_PATH/../tmp
+#ls -R $CI_ARCHIVE_PATH/../tmp
 #echo $CI_BUILD_ID
 #echo $CI_PRODUCT_ID
 #echo $CI_BUILD_URL
@@ -27,4 +27,5 @@ ls -R $CI_ARCHIVE_PATH/../tmp
 #  ENABLE_BITCODE=NO \
 #  > build.log.txt
 #cat build.log.txt
+find /Volumes -type f -name "*.log"
 exit 0
