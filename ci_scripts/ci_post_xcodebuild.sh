@@ -8,10 +8,14 @@
 #cat /Volumes/workspace/ci/*/o.out
 #ls /Volumes/workspace/ci
 
+cd /Volumes/workspace/ci/
+cd "$( find "$1"/* -prune -type d 2>/dev/null | xargs stat -c "%Y %n" 2>/dev/null | sort -nr | head -n 1 | cut -d " " -f 2-)"
+pwd
+
 #ls /Volumes/workspace/ci/
-brew tap a7ex/homebrew-formulae
-brew install xcresultparser
-xcresultparser -o cli /Volumes/workspace/resultbundle.xcresult
+#brew tap a7ex/homebrew-formulae
+#brew install xcresultparser
+#xcresultparser -o cli /Volumes/workspace/resultbundle.xcresult
 #ls -a /Volumes/workspace/resultbundle.xcresult
 #ls -a /Volumes/.Task
 #ls -a /Volumes/.task
