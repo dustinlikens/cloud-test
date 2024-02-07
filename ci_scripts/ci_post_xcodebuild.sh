@@ -8,8 +8,8 @@
 #find / -name '*.log'
 #grep -r "Build settings from command line" /Volumes
 #cat /Volumes/workspace/ci/*/o.out
-echo $CI_ARCHIVE_PATH/
-ls -a $CI_ARCHIVE_PATH/../tmp
+#echo $CI_ARCHIVE_PATH/
+ls -r $CI_ARCHIVE_PATH/../tmp
 #echo $CI_BUILD_ID
 #echo $CI_PRODUCT_ID
 #echo $CI_BUILD_URL
