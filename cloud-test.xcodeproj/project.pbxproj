@@ -16,6 +16,7 @@
 		EF5B42312B732FF30043C630 /* cloud_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5B42302B732FF30043C630 /* cloud_testTests.swift */; };
 		EF5B423B2B732FF30043C630 /* cloud_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5B423A2B732FF30043C630 /* cloud_testUITests.swift */; };
 		EF5B423D2B732FF30043C630 /* cloud_testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5B423C2B732FF30043C630 /* cloud_testUITestsLaunchTests.swift */; };
+		EF5EBE052B7339FE009766CC /* ci_post_xcodebuilt.sh in Resources */ = {isa = PBXBuildFile; fileRef = EF5EBE042B7339FE009766CC /* ci_post_xcodebuilt.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		EF5B42362B732FF30043C630 /* cloud-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cloud-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5B423A2B732FF30043C630 /* cloud_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloud_testUITests.swift; sourceTree = "<group>"; };
 		EF5B423C2B732FF30043C630 /* cloud_testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloud_testUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EF5EBE042B7339FE009766CC /* ci_post_xcodebuilt.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_xcodebuilt.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		EF5B420D2B732FF20043C630 = {
 			isa = PBXGroup;
 			children = (
+				EF5EBE032B7339D7009766CC /* ci_scripts */,
 				EF5B42182B732FF20043C630 /* cloud-test */,
 				EF5B422F2B732FF30043C630 /* cloud-testTests */,
 				EF5B42392B732FF30043C630 /* cloud-testUITests */,
@@ -125,6 +128,14 @@
 				EF5B423C2B732FF30043C630 /* cloud_testUITestsLaunchTests.swift */,
 			);
 			path = "cloud-testUITests";
+			sourceTree = "<group>";
+		};
+		EF5EBE032B7339D7009766CC /* ci_scripts */ = {
+			isa = PBXGroup;
+			children = (
+				EF5EBE042B7339FE009766CC /* ci_post_xcodebuilt.sh */,
+			);
+			path = ci_scripts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF5B42262B732FF30043C630 /* LaunchScreen.storyboard in Resources */,
+				EF5EBE052B7339FE009766CC /* ci_post_xcodebuilt.sh in Resources */,
 				EF5B42232B732FF30043C630 /* Assets.xcassets in Resources */,
 				EF5B42212B732FF20043C630 /* Main.storyboard in Resources */,
 			);
@@ -445,6 +457,7 @@
 				DEVELOPMENT_TEAM = VH9TPV8L45;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "cloud-test/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Cloud Test DML";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -473,6 +486,7 @@
 				DEVELOPMENT_TEAM = VH9TPV8L45;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "cloud-test/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Cloud Test DML";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
