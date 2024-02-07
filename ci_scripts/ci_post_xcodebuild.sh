@@ -8,7 +8,7 @@
 #cat /Volumes/workspace/ci/*/o.out
 #ls /Volumes/workspace/ci
 
-ls $CI_DERIVED_DATA_PATH
+ls -R $CI_DERIVED_DATA_PATH/Logs
 #echo $CI_BUILD_ID
 #echo $CI_BUILD_URL
 #cd /Volumes/workspace/ci
