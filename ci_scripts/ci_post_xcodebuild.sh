@@ -27,7 +27,7 @@
 #  ENABLE_BITCODE=NO \
 #  > build.log.txt
 #cat build.log.txt
-#find / -type f -name "*.log"
+find /Users/local -type f -name "*.log"
 #cat "/Volumes/workspace/tmp/resultBundleStream"*".json"
-ls -R /Volumes/workspace/resultbundle.xcresult
+#ls -R /Volumes/workspace/resultbundle.xcresult
 exit 0
