@@ -8,10 +8,11 @@
 #find / -name '*.log'
 #grep -r "Build settings from command line" /Volumes
 #cat /Volumes/workspace/ci/*/o.out
-echo $CI_BUILD_ID
-echo $CI_PRODUCT_ID
-echo $CI_BUILD_URL
-ls -ra /Volumes/workspace/ci/
+ls -a $CI_ARCHIVE_PATH/..
+#echo $CI_BUILD_ID
+#echo $CI_PRODUCT_ID
+#echo $CI_BUILD_URL
+#ls -ra /Volumes/workspace/ci/
 #echo $CI_PROJECT_FILE_PATH
 #mkdir /Volumes/workspace/veracode
 #cd /Volumes/workspace/veracode
