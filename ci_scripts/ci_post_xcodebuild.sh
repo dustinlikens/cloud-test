@@ -6,10 +6,10 @@
 #  Created by Dustin Likens on 2/6/24.
 #
 #cat /Volumes/workspace/ci/*/o.out
-ls /Volumes/workspace/ci
+#ls /Volumes/workspace/ci
 
 #find / -name '*.log'
-#grep -r "ARCHIVE SUCCEEDED" /Volumes
+grep -r "ARCHIVE SUCCEEDED" /
 #cat /Volumes/workspace/ci/*/o.out
 #echo $CI_ARCHIVE_PATH/
 #ls -R $CI_ARCHIVE_PATH/../tmp
