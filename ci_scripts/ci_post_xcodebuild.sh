@@ -6,7 +6,7 @@
 #  Created by Dustin Likens on 2/6/24.
 #  
 #find / -name '*.log'
-grep -r "** ARCHIVE SUCCEEDED **" /Volumes
+grep -r "ARCHIVE SUCCEEDED" /Volumes
 #cat /Volumes/workspace/ci/*/o.out
 #echo $CI_ARCHIVE_PATH/
 #ls -R $CI_ARCHIVE_PATH/../tmp
