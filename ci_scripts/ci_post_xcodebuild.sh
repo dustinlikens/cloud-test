@@ -12,7 +12,8 @@
 #echo $CI_BUILD_URL
 cd /Volumes/workspace/ci
 cd "$(\ls -1dt ./*/ | head -n 1)"
-mkdir /Users/local/.veracode
+#mkdir /Users/local/.veracode
+ls .
 cat o.out
 #cat /Users/local/.veracode/log.txt
 #ls .
