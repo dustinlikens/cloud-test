@@ -8,14 +8,14 @@
 #cat /Volumes/workspace/ci/*/o.out
 #ls /Volumes/workspace/ci
 
-grep -rs "Command line invocation" /Volumes
+#grep -rs "Command line invocation" /Volumes
 #cp -R $CI_DERIVED_DATA_PATH/Logs/Build/*.xcactivitylog
 #echo $CI_BUILD_ID
 #echo $CI_BUILD_URL
-#cd /Volumes/workspace/ci
-#cd "$(\ls -1dt ./*/ | head -n 1)"
+cd /Volumes/workspace/ci
+cd "$(\ls -1dt ./*/ | head -n 1)"
 #mkdir /Users/local/.veracode
-#ls .
+ls .
 #cat o.out
 #cat /Users/local/.veracode/log.txt
 #ls .
