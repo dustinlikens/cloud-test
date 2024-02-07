@@ -9,7 +9,10 @@
 #ls /Volumes/workspace/ci
 
 #ls /Volumes/workspace/ci/
-ls -a /Volumes/workspace/resultbundle.xcresult
+brew tap a7ex/homebrew-formulae
+brew install xcresultparser
+xcresultparser -o cli /Volumes/workspace/resultbundle.xcresult
+#ls -a /Volumes/workspace/resultbundle.xcresult
 #ls -a /Volumes/.Task
 #ls -a /Volumes/.task
 #find / -name '*.log'
