@@ -8,13 +8,14 @@
 #cat /Volumes/workspace/ci/*/o.out
 #ls /Volumes/workspace/ci
 
+ls $CI_DERIVED_DATA_PATH
 #echo $CI_BUILD_ID
 #echo $CI_BUILD_URL
-cd /Volumes/workspace/ci
-cd "$(\ls -1dt ./*/ | head -n 1)"
+#cd /Volumes/workspace/ci
+#cd "$(\ls -1dt ./*/ | head -n 1)"
 #mkdir /Users/local/.veracode
-ls .
-cat o.out
+#ls .
+#cat o.out
 #cat /Users/local/.veracode/log.txt
 #ls .
 #cd "$( find "$1"/* -prune -type d 2>/dev/null | xargs stat -c "%Y %n" 2>/dev/null | sort -nr | head -n 1 | cut -d " " -f 2-)"
