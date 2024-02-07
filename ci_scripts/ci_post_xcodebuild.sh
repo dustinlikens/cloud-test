@@ -29,5 +29,5 @@
 #cat build.log.txt
 #find / -type f -name "*.log"
 #cat "/Volumes/workspace/tmp/resultBundleStream"*".json"
-ls /Volumes/workspace/resultbundle.xcresult
+ls -R /Volumes/workspace/resultbundle.xcresult
 exit 0
