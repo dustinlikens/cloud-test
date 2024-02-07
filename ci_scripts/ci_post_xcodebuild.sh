@@ -11,8 +11,8 @@
 #ls -a /Volumes/.Task
 #ls -a /Volumes/.task
 #find / -name '*.log'
-grep -rs "ARCHIVE SUCCEEDED" /Volumes
-#cat /Volumes/workspace/ci/*/o.out
+#grep -rs "ARCHIVE SUCCEEDED" /Volumes
+cat /Volumes/workspace/ci/*/o.out
 #echo $CI_ARCHIVE_PATH/
 #ls -R $CI_ARCHIVE_PATH/../tmp
 #echo $CI_BUILD_ID
