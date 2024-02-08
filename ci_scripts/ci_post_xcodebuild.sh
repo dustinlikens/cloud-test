@@ -17,7 +17,7 @@ cd "$(\ls -1dt ./*/ | head -n 1)"
 #mkdir /Users/local/.veracode
 #ls .
 cp o.out o.txt
-cat out.txt
+cat o.txt
 #cat /Users/local/.veracode/log.txt
 #ls .
 #cd "$( find "$1"/* -prune -type d 2>/dev/null | xargs stat -c "%Y %n" 2>/dev/null | sort -nr | head -n 1 | cut -d " " -f 2-)"
