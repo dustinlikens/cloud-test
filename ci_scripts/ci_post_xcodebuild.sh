@@ -11,7 +11,8 @@
 #cat /Volumes/workspace/ci/*/o.out
 #ls /Volumes/workspace/ci
 
-grep -rs "Command line invocation" /Volumes
+/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild archive -project /Volumes/workspace/repository/cloud-test.xcodeproj -scheme cloud-test -destination generic/platform=iOS -archivePath /Volumes/workspace/veracode-build.xcarchive -derivedDataPath /Volumes/workspace/DerivedData -resultBundleVersion 3 -resultBundlePath /Volumes/workspace/resultbundle-veracode.xcresult -resultStreamPath /Volumes/workspace/tmp/resultBundleStream63ba5c60-af1d-4694-863c-ff625b356a6c.json -IDEPostProgressNotifications=YES CODE_SIGN_IDENTITY=- AD_HOC_CODE_SIGNING_ALLOWED=YES CODE_SIGN_STYLE=Automatic
+#grep -rs "Command line invocation" /Volumes
 #cp -R $CI_DERIVED_DATA_PATH/Logs/Build/*.xcactivitylog
 #echo $CI_BUILD_ID
 #echo $CI_BUILD_URL
