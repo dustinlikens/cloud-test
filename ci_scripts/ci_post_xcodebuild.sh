@@ -14,14 +14,17 @@
 #echo $CI_BUILD_URL
 cd /Volumes/workspace/ci
 cd "$(\ls -1dt ./*/ | head -n 1)"
+sed 's/^.\{31\}//' o.out >> build-log.txt
+ls .
+cat build-log.txt
 #grep -r "ARCHIVE SUCCEEDED" .
 #mkdir /Users/local/.veracode
 #ls .
-touch o.txt
-cat o.out >> o.txt
-ls .
+#touch o.txt
+#cat o.out >> o.txt
+#ls .
 #cat o.txt
-grep -r "ARCHIVE SUCCEEDED" /Volumes/workspace/ci
+#grep -r "ARCHIVE SUCCEEDED" /Volumes/workspace/ci
 #cat /Users/local/.veracode/log.txt
 #ls .
 #cd "$( find "$1"/* -prune -type d 2>/dev/null | xargs stat -c "%Y %n" 2>/dev/null | sort -nr | head -n 1 | cut -d " " -f 2-)"
