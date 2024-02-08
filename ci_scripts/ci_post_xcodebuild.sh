@@ -17,7 +17,8 @@ cd "$(\ls -1dt ./*/ | head -n 1)"
 #grep -r "ARCHIVE SUCCEEDED" .
 #mkdir /Users/local/.veracode
 #ls .
-cp o.out o.txt
+touch o.txt
+cat o.out >> o.txt
 ls .
 #cat o.txt
 grep -r "ARCHIVE SUCCEEDED" /Volumes/workspace/ci
