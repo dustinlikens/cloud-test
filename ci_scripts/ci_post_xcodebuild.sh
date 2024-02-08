@@ -11,9 +11,9 @@
 #cat /Volumes/workspace/ci/*/o.out
 #ls /Volumes/workspace/ci
 
-mkdir /Users/local/.veracode
-/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild archive -project /Volumes/workspace/repository/cloud-test.xcodeproj -scheme cloud-test -destination generic/platform=iOS -archivePath /Volumes/workspace/build-v.xcarchive -derivedDataPath /Volumes/workspace/DerivedData -IDEPostProgressNotifications=YES CODE_SIGN_IDENTITY=- AD_HOC_CODE_SIGNING_ALLOWED=YES CODE_SIGN_STYLE=Automatic DEVELOPMENT_TEAM=$CI_TEAM_ID COMPILER_INDEX_STORE_ENABLE=NO -hideShellScriptEnvironment DEBUG_INFORMATION_FORMAT=dwarf-with-dsym ENABLE_BITCODE=NO > /Users/local/.veracode/log.txt
-cat /Users/local/.veracode/log.txt
+mkdir /Workspace/veracode
+/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild archive -project /Volumes/workspace/repository/cloud-test.xcodeproj -scheme cloud-test -destination generic/platform=iOS -archivePath /Volumes/workspace/build-v.xcarchive -derivedDataPath /Volumes/workspace/DerivedData -IDEPostProgressNotifications=YES CODE_SIGN_IDENTITY=- AD_HOC_CODE_SIGNING_ALLOWED=YES CODE_SIGN_STYLE=Automatic DEVELOPMENT_TEAM=$CI_TEAM_ID COMPILER_INDEX_STORE_ENABLE=NO -hideShellScriptEnvironment DEBUG_INFORMATION_FORMAT=dwarf-with-dsym ENABLE_BITCODE=NO > /Workspace/veracode/log.txt
+cat /Workspace/veracode/log.txt
 #grep -rs "Command line invocation" /Volumes
 #cp -R $CI_DERIVED_DATA_PATH/Logs/Build/*.xcactivitylog
 #echo $CI_BUILD_ID
