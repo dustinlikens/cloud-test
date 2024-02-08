@@ -14,7 +14,7 @@
 #echo $CI_BUILD_URL
 cd /Volumes/workspace/ci
 cd "$(\ls -1dt ./*/ | head -n 1)"
-grep "ARCHIVE SUCCEEDED" .
+grep -r "ARCHIVE SUCCEEDED" .
 #mkdir /Users/local/.veracode
 #ls .
 #cp o.out o.txt
