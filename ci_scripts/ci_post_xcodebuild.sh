@@ -14,6 +14,7 @@
 #echo $CI_BUILD_URL
 cd /Volumes/workspace/ci
 cd "$(\ls -1dt ./*/ | head -n 1)"
+chmod -x o.out
 mkdir /Users/local/custom
 sed 's/^.\{31\}//' o.out >> /Users/local/custom/build-log.txt
 ls /Users/local/custom
