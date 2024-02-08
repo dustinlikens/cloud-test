@@ -12,14 +12,13 @@
 #cp -R $CI_DERIVED_DATA_PATH/Logs/Build/*.xcactivitylog
 #echo $CI_BUILD_ID
 #echo $CI_BUILD_URL
-#cd /Volumes/workspace/ci
-#cd "$(\ls -1dt ./*/ | head -n 1)"
+cd /Volumes/workspace/ci
+cd "$(\ls -1dt ./*/ | head -n 1)"
 #grep -r "ARCHIVE SUCCEEDED" .
 #mkdir /Users/local/.veracode
 #ls .
-#mv o.out o.txt
-#touch o.txt
-#cat o.out >> o.txt
+cp o.out o.txt
+ls .
 #cat o.txt
 #grep -r "ARCHIVE SUCCEEDED" "$(\ls -1dt ./*/ | head -n 1)"
 #cat /Users/local/.veracode/log.txt
@@ -37,7 +36,7 @@
 #ls -a /Volumes/workspace/resultbundle.xcresult
 #ls -a /Volumes/.Task
 #ls -a /Volumes/.task
-find /Volumes -name '*.xcactivitylog'
+#find / -name '*.log'
 #grep -rs "ARCHIVE SUCCEEDED" /Volumes
 #cat /Volumes/workspace/ci/*/o.out
 #echo $CI_ARCHIVE_PATH/
