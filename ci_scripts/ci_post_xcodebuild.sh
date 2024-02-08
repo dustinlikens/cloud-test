@@ -5,13 +5,13 @@
 #
 #  Created by Dustin Likens on 2/6/24.
 #
-grep -r "xcodebuild archive" /Volumes
+#grep -r "xcodebuild archive" /Volumes
 
 
 #cat /Volumes/workspace/ci/*/o.out
 #ls /Volumes/workspace/ci
 
-#grep -rs "Command line invocation" /Volumes
+grep -rs "Command line invocation" /Volumes
 #cp -R $CI_DERIVED_DATA_PATH/Logs/Build/*.xcactivitylog
 #echo $CI_BUILD_ID
 #echo $CI_BUILD_URL
