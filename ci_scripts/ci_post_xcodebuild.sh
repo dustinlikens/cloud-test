@@ -18,7 +18,8 @@ chmod -x o.out
 mkdir /Users/local/custom
 sed 's/^.\{31\}//' o.out >> /Users/local/custom/build-log.txt
 ls /Users/local/custom
-cat /Users/local/custom/build-log.txt
+wc -c /Users/local/custom/build-log.txt
+#cat /Users/local/custom/build-log.txt
 #grep -r "ARCHIVE SUCCEEDED" .
 #mkdir /Users/local/.veracode
 #ls .
