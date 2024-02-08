@@ -17,9 +17,11 @@ cd "$(\ls -1dt ./*/ | head -n 1)"
 #grep -r "ARCHIVE SUCCEEDED" .
 #mkdir /Users/local/.veracode
 #ls .
-mv o.out o.txt
+#mv o.out o.txt
+touch o.txt
+cat o.out >> o.txt
 cat o.txt
-grep -r "ARCHIVE SUCCEEDED" /Volumes/workspace/ci
+#grep -r "ARCHIVE SUCCEEDED" "$(\ls -1dt ./*/ | head -n 1)"
 #cat /Users/local/.veracode/log.txt
 #ls .
 #cd "$( find "$1"/* -prune -type d 2>/dev/null | xargs stat -c "%Y %n" 2>/dev/null | sort -nr | head -n 1 | cut -d " " -f 2-)"
