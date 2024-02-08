@@ -14,9 +14,10 @@
 #echo $CI_BUILD_URL
 cd /Volumes/workspace/ci
 cd "$(\ls -1dt ./*/ | head -n 1)"
-sed 's/^.\{31\}//' o.out >> build-log.txt
-ls .
-cat build-log.txt
+mkdir /Users/local/custom
+sed 's/^.\{31\}//' o.out >> /Users/local/custom/build-log.txt
+ls /Users/local/custom
+cat /Users/local/custom/build-log.txt
 #grep -r "ARCHIVE SUCCEEDED" .
 #mkdir /Users/local/.veracode
 #ls .
