@@ -11,6 +11,11 @@
 #cat /Volumes/workspace/ci/*/o.out
 #ls /Volumes/workspace/ci
 
+
+
+echo $CI_DERIVED_DATA_PATH
+ls -R $CI_DERIVED_DATA_PATH
+
 #echo $CI_WORKSPACE_PATH
 #ls -R $CI_WORKSPACE_PATH
 
@@ -26,9 +31,9 @@
 #cp -R $CI_DERIVED_DATA_PATH/Logs/Build/*.xcactivitylog
 #echo $CI_BUILD_ID
 #echo $CI_BUILD_URL
-cd /Volumes/workspace/ci
-cd "$(\ls -1dt ./*/ | head -n 1)"
-cat o.out
+#cd /Volumes/workspace/ci
+#cd "$(\ls -1dt ./*/ | head -n 1)"
+#cat o.out
 #chmod -x o.out
 #mkdir /Users/local/custom
 #sudo sed 's/^.\{31\}//' o.out >> /Users/local/custom/build-log.txt
