@@ -11,8 +11,10 @@
 #cat /Volumes/workspace/ci/*/o.out
 #ls /Volumes/workspace/ci
 
-echo $CI_WORKSPACE_PATH
-ls -R $CI_WORKSPACE_PATH
+#echo $CI_WORKSPACE_PATH
+#ls -R $CI_WORKSPACE_PATH
+
+grep -r "Command line invocation" $CI_WORKSPACE_PATH
 
 #pwd
 #find / -name "xcodebuild-archive*" 2>&1 | grep -v "Permission denied"
