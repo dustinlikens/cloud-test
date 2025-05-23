@@ -24,9 +24,12 @@
 #pwd
 #find / -name "xcodebuild-archive*" 2>&1 | grep -v "Permission denied"
 #ls -R /Volumes/workspace/ci
-mkdir /Volumes/workspace/veracode
-/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild archive -project /Volumes/workspace/repository/cloud-test.xcodeproj -scheme cloud-test -destination generic/platform=iOS -archivePath /Volumes/workspace/build-v.xcarchive -derivedDataPath /Volumes/workspace/DerivedData -IDEPostProgressNotifications=YES CODE_SIGN_IDENTITY=- AD_HOC_CODE_SIGNING_ALLOWED=YES CODE_SIGN_STYLE=Automatic DEVELOPMENT_TEAM=$CI_TEAM_ID COMPILER_INDEX_STORE_ENABLE=NO -hideShellScriptEnvironment DEBUG_INFORMATION_FORMAT=dwarf-with-dsym ENABLE_BITCODE=NO > /Volumes/workspace/veracode/build-log.txt
-cat /Volumes/workspace/veracode/build-log.txt
+#mkdir /Volumes/workspace/veracode
+#/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild archive -project /Volumes/workspace/repository/cloud-test.xcodeproj -scheme cloud-test -destination generic/platform=iOS -archivePath /Volumes/workspace/build-v.xcarchive -derivedDataPath /Volumes/workspace/DerivedData -IDEPostProgressNotifications=YES CODE_SIGN_IDENTITY=- AD_HOC_CODE_SIGNING_ALLOWED=YES CODE_SIGN_STYLE=Automatic DEVELOPMENT_TEAM=$CI_TEAM_ID COMPILER_INDEX_STORE_ENABLE=NO -hideShellScriptEnvironment DEBUG_INFORMATION_FORMAT=dwarf-with-dsym ENABLE_BITCODE=NO > /Volumes/workspace/veracode/build-log.txt
+#cat /Volumes/workspace/veracode/build-log.txt
+#ls -R /Users/local/tmp
+#    ls -R /Volumes/workspace/tmp/
+grep -r "ComputeTargetDependencyGraph" /Users/local/
 #grep -rs "Command line invocation" /Volumes
 #cp -R $CI_DERIVED_DATA_PATH/Logs/Build/*.xcactivitylog
 #echo $CI_BUILD_ID
